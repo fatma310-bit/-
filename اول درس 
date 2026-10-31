@@ -1,0 +1,271 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNqBL2KgHyu8nMwyP3h2VTh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fatma310-bit/-/blob/main/%D8%A7%D9%88%D9%84%20%D8%AF%D8%B1%D8%B3%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BCCQkrEvRjnU",
+        "outputId": "5949dd99-eb7d-4d41-b8f8-2182484655e8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "205 minutes = 3 hours 25 minutes\n"
+          ]
+        }
+      ],
+      "source": [
+        "total_minutes = 205\n",
+        "hours = 3        # أكمل: القسمة الصحيحة\n",
+        "rest = 25         # أكمل: الباقي\n",
+        "print(f\"{total_minutes} minutes = {hours} hours {rest} minutes\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "t1 = 21.5\n",
+        "t2 = 23.0\n",
+        "t3 = 19.8\n",
+        "average = 21.4      # أكمل: المتوسط ثم round لرقم عشري واحد\n",
+        "print(f\"Average temperature: {average} °C\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-ZNyEfJaWtxA",
+        "outputId": "984a9533-b268-43ac-a369-d0a50270beac"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Average temperature: 21.4 °C\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "country = \"  new zealand  \"\n",
+        "cleaned ==  \"New Zealand\"     # أكمل: strip().title()\n",
+        "first3 ==\"New\"     # أكمل: أول ثلاثة حروف\n",
+        "letters ==  11    # أكمل: len(cleaned)\n",
+        "print(f\"{cleaned} / {first3} / {letters}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "txy7OEmZW8hK",
+        "outputId": "e21055ab-3741-4a15-f570-f9c66084d905"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "New Zealand / New / 11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "hours_text = \"2\"\n",
+        "rate_text = \"75\"\n",
+        "hours = 2       # أكمل: int(hours_text)\n",
+        "rate   = 75      # أكمل: int(rate_text)\n",
+        "total = 150       # أكمل: hours * rate\n",
+        "print(f\"You used {hours} hours at {rate} EGP/hour = {total} EGP\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UI17U-xAXRS6",
+        "outputId": "550975b1-c928-4b43-e542-7ed6843df95d"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "You used 2 hours at 75 EGP/hour = 150 EGP\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "days = 4         # أكمل\n",
+        "print(f\"The trip lasts {days} days\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aqEaQbT5YYDz",
+        "outputId": "961ef657-a02f-4025-ef88-2689b7db542f"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The trip lasts 4 days\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "seat_no = 7\n",
+        "fixed_text = \"Seat 7\" # أكمل الإصلاح\n",
+        "print(fixed_text)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MeXU4dxoYgUj",
+        "outputId": "6b610071-7b5c-4848-d0d5-3f93bce2dd9e"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Seat 7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "destination =  \"Cairo\" # أكمل: اكتب الوجهة المطلوبة\n",
+        "print(destination)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZDlNfDMKYpU8",
+        "outputId": "88bc24cc-3ea2-46d3-c430-1751c78b5e58"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cairo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "project_name = \"Coffee Tracker\"          # غيّره إلى اسم مشروعك\n",
+        "topic = \"coffee shop orders\"             # غيّره إلى موضوعك\n",
+        "\n",
+        "field1_name = \"order_id\"\n",
+        "field1_sample = 101\n",
+        "field2_name = \"item\"\n",
+        "field2_sample = \"Latte\"\n",
+        "field3_name = \"price\"\n",
+        "field3_sample = 4.5\n",
+        "field4_name = \"quantity\"\n",
+        "field4_sample = 3\n",
+        "field5_name = \"payment\"\n",
+        "field5_sample = \"card\"\n",
+        "field6_name = \"day\"\n",
+        "field6_sample = \"Monday\"\n",
+        "\n",
+        "# اطبع بطاقة المشروع: الاسم + الموضوع + كل حقل مع قيمته ونوعه\n",
+        "print(\"=\" * 44)\n",
+        "print(\"PROJECT CARD:\", project_name)\n",
+        "print(\"Topic:\", topic)\n",
+        "print(\"-\" * 44)\n",
+        "print(f\"{field1_name} | sample: {field1_sample} | type: {type(field1_sample).__name__}\")\n",
+        "print(f\"{field2_name} | sample: {field2_sample} | type: {type(field2_sample).__name__}\")\n",
+        "print(f\"{field3_name} | sample: {field3_sample} | type: {type(field3_sample).__name__}\")\n",
+        "print(f\"{field4_name} | sample: {field4_sample} | type: {type(field4_sample).__name__}\")\n",
+        "print(f\"{field5_name} | sample: {field5_sample} | type: {type(field5_sample).__name__}\")\n",
+        "print(f\"{field6_name} | sample: {field6_sample} | type: {type(field6_sample).__name__}\")\n",
+        "print(\"=\" * 44)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kCxoT1M6Y2F0",
+        "outputId": "57881a40-691b-4cfe-c078-2018c9e2f325"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "============================================\n",
+            "PROJECT CARD: Coffee Tracker\n",
+            "Topic: coffee shop orders\n",
+            "--------------------------------------------\n",
+            "order_id | sample: 101 | type: int\n",
+            "item | sample: Latte | type: str\n",
+            "price | sample: 4.5 | type: float\n",
+            "quantity | sample: 3 | type: int\n",
+            "payment | sample: card | type: str\n",
+            "day | sample: Monday | type: str\n",
+            "============================================\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
